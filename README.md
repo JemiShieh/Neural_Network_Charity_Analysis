@@ -60,7 +60,7 @@ The original model was unable to achieve target performance of 75% accuracy with
 Optimization of the original model includes the following step-by-step attempts and aggregated results:
 - Noisy variables are removed from features: ASK_AMT removed from features and APPLICATION_TYPE and CLASSIFICATION feature value thresholds increased to reduce the number of bins
 - Additional hidden layers are added: hidden layers increased from two to three
-- Additional neurons are added to hidden layers: neuron per hidden layer increased from 80/30 to 140/140/140
+- Additional neurons are added to hidden layers: neurons per hidden layer increased from 80/30 to 140/140/140
 - The activation function of hidden layers or output layers is changed for optimization: first hidden layer activtion function changed from ReLu to tanh
 - Aggregated optimization results:
 
